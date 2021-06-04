@@ -141,6 +141,7 @@
                     <td>Pod Hostname</td>
                     <td><%= System.getenv("HOSTNAME") %></td>
                   </tr>
+		<!--
                   <tr role="row" class="even">
                     <td>Pod IP</td>
                     <td><%= System.getenv("MY_POD_IP") %></td>
@@ -150,6 +151,7 @@
                     <% int mb = 1024*1024; %>
                     <td><%= (Runtime.getRuntime().totalMemory()) / mb %> MB</td>
                   </tr>
+		-->
                   <tr role="row" class="even">
                     <td>Session ID</td>
                     <td><%= session.getId() %></td>
